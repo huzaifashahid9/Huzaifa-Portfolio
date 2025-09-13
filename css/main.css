@@ -3067,6 +3067,7 @@ form textarea:required:valid {
   -moz-border-radius: var(--_radius-l);
        border-radius: var(--_radius-l);
   margin-bottom: 0.8rem;
+  /* height: auto; */
 }
 
 .avatar__socials {
