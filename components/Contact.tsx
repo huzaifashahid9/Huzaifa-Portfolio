@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { Copy, Check, Phone, MapPin, GithubLogo, LinkedinLogo, InstagramLogo } from "@phosphor-icons/react";
 import { contact } from "@/lib/data";
+import ResumeButton from "./ResumeButton";
 
 export default function Contact() {
   const emailRef = useRef<HTMLElement>(null);
@@ -56,6 +57,7 @@ export default function Contact() {
                   <Copy className="ic" />
                   Copy email
                 </button>
+                <ResumeButton />
               </div>
             </div>
             <div className="c-meta">

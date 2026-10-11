@@ -238,3 +238,9 @@ export const contact = {
   linkedin: "https://www.linkedin.com/in/huzaifashahid9",
   instagram: "https://www.instagram.com/huzaifaa_.shahid",
 };
+
+// Served from public/. Keep `filename` pretty: it is what lands in the visitor's Downloads folder.
+export const resume = {
+  href: "/huzaifa-shahid-resume.pdf",
+  filename: "Huzaifa-Shahid-Resume.pdf",
+};

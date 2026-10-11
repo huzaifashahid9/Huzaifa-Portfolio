@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "@phosphor-icons/react";
 import { gsap, useGSAP, MOTION_OK } from "@/lib/gsap";
+import ResumeButton from "./ResumeButton";
 
 export default function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -55,6 +56,7 @@ export default function Hero() {
             <a className="btn" href="#contact">
               Let&apos;s talk
             </a>
+            <ResumeButton />
           </div>
         </div>
 
